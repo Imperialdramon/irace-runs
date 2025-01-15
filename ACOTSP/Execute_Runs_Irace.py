@@ -35,14 +35,14 @@ def execute_scenario(path: str, seed: int, id_scenario: int, train_dir: str, par
 # Directorios de escenarios de base, de destino y nombre de los escenarios
 directories = [
     ['BaseScenario', 'RunScenarios', 'Normal'],
-    # ['BaseScenarioSoftrestart', 'RunScenariosSoftRestart', 'SoftRestart']
+    ['BaseScenarioSoftrestart', 'RunScenariosSoftRestart', 'SoftRestart']
 ]
 
 # Directorio relativo de entrenamiento desde la carpeta actual
 train_dir = os.path.join(os.getcwd(), 'TrainInstances')
 
 # Semillas para cada combinación
-seeds = [1, 2, 3]
+seeds = [7940, 9411, 7175, 9685, 7018, 1569, 128, 5144, 8860, 3764]
 
 # Listas para almacenar los datos de cada run
 runs_data = []
@@ -66,7 +66,7 @@ for base_dir, dest_dir, scenario in directories:
 # Configuración de paralelismo
 N = len(runs_data)  # Total de escenarios a ejecutar
 K = 2           # Máximo de ejecuciones simultáneas
-parallel = 2    # Número de threads por escenario
+parallel = 8    # Número de threads por escenario
 
 print(f"Número total de escenarios (N): {N}\n")
 print(f"Número máximo de ejecuciones simultáneas (K): {K}\n")
