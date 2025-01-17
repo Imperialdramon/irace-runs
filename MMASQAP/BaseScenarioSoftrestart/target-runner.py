@@ -11,7 +11,7 @@ def error(message):
     sys.exit(1)
 
 # Path to the irace executable
-EXE = "../mmas-qap/mmasqap"
+EXE = "../MMASQAP/mmasqap"
 
 # Fixed parameters for ILS
 FIXED_PARAMS = " --trials 1 --iterations 1 --time 10"
