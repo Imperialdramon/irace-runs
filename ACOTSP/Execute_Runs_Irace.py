@@ -34,7 +34,7 @@ def execute_scenario(path: str, seed: int, id_scenario: int, train_dir: str, par
 
 # Directorios de escenarios de base, de destino y nombre de los escenarios
 directories = [
-    ['BaseScenario', 'RunScenarios', 'Normal'],
+#    ['BaseScenario', 'RunScenarios', 'Normal'],
     ['BaseScenarioSoftrestart', 'RunScenariosSoftRestart', 'SoftRestart']
 ]
 
