@@ -11,7 +11,7 @@ def error(message):
     sys.exit(1)
 
 # Path to the irace executable
-EXE = "../MMASQAP/mmasqap"
+EXE = "../MMASQAP-1.00/mmasqap"
 
 # Fixed parameters for ILS
 FIXED_PARAMS = " --trials 1 --iterations 1 --time 10"
@@ -67,5 +67,10 @@ print(cost)
 os.remove(STDOUT)
 os.remove(STDERR)
 for pattern in ["*.sum", "*.rep"]:
-    for temp_file in glob.glob(pattern):
-        os.remove(temp_file)
+    files = glob.glob(pattern)
+    for file in files:
+        try:
+            os.remove(file)
+        # Avoid to delete inexistence file
+        except FileNotFoundError:
+            pass
