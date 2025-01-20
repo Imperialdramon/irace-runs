@@ -1,4 +1,4 @@
-.ID.  algorithm  localsearch  alpha  beta  rho  ants  q0  rasrank  elitistants  nnls  dlb  statusElite  iteration - 1  eliteResults|.ID.  algorithm  localsearch  alpha  beta  rho  ants  q0  rasrank  elitistants  nnls  dlb  statusNew  iteration  newResults
+.ID.  algorithm  localsearch  alpha  beta  rho  ants  q0  rasrank  elitistants  nnls  dlb  statusElite  iteration  eliteResults|.ID.  algorithm  localsearch  alpha  beta  rho  ants  q0  rasrank  elitistants  nnls  dlb  statusNew  iteration  newResults
 33  acs  3  3.4874  8.6568  0.4442  31  0.0431  NA  NA  10  0  e  1  32634908.5|167  as  3  0.8964  8.7039  0.5224  53  NA  NA  NA  17  0  ne  2  33217246.2
 33  acs  3  3.4874  8.6568  0.4442  31  0.0431  NA  NA  10  0  e  1  32634908.5|168  eas  3  2.9322  9.3028  0.8628  10  NA  NA  617  18  1  ne  2  33247165
 33  acs  3  3.4874  8.6568  0.4442  31  0.0431  NA  NA  10  0  e  1  32634908.5|169  mmas  2  2.0919  8.39  0.4404  20  NA  NA  NA  10  0  ne  2  32851839
