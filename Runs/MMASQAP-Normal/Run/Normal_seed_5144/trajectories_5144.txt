@@ -1,4 +1,4 @@
-.ID.  localsearch  rho  ants  statusElite  iteration - 1  eliteResults|.ID.  localsearch  rho  ants  statusNew  iteration  newResults
+.ID.  localsearch  rho  ants  statusElite  iteration  eliteResults|.ID.  localsearch  rho  ants  statusNew  iteration  newResults
 199  3  0.27  7  e  1  5298341.4|281  0  0.29  16  ne  2  4705078.4
 199  3  0.27  7  e  1  5298341.4|282  1  0.26  2  ne  2  4711152
 199  3  0.27  7  e  1  5298341.4|285  1  0.16  15  ne  2  4687446
