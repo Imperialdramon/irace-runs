@@ -1,0 +1,53 @@
+nohup: ignoring input
+Número total de escenarios (N): 40
+
+Número máximo de ejecuciones simultáneas (K): 2
+
+Número de threads por escenario: 8
+
+Ejecutando escenarios...
+
+Escenario 1 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_7940, seed=7940
+Escenario 2 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_9411, seed=9411
+Escenario 4 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_9685, seed=9685
+Escenario 3 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_7175, seed=7175
+Escenario 5 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_7018, seed=7018
+Escenario 6 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_1569, seed=1569
+Escenario 7 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_128, seed=128
+Escenario 8 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_5144, seed=5144
+Escenario 9 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_8860, seed=8860
+Escenario 10 terminado: Runs/ACOTSP-Normal/Run/Normal_seed_3764, seed=3764
+Escenario 1 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_7940, seed=7940
+Escenario 2 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_9411, seed=9411
+Escenario 3 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_7175, seed=7175
+Escenario 4 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_9685, seed=9685
+Escenario 5 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_7018, seed=7018
+Escenario 6 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_1569, seed=1569
+Escenario 7 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_128, seed=128
+Escenario 8 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_5144, seed=5144
+Escenario 9 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_8860, seed=8860
+Escenario 10 terminado: Runs/ACOTSP-Sr/Run/Normal_seed_3764, seed=3764
+Escenario 1 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_7940, seed=7940
+Escenario 2 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_9411, seed=9411
+Escenario 3 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_7175, seed=7175
+Escenario 4 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_9685, seed=9685
+Escenario 5 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_7018, seed=7018
+Escenario 6 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_1569, seed=1569
+Escenario 7 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_128, seed=128
+Escenario 8 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_5144, seed=5144
+Escenario 9 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_8860, seed=8860
+Escenario 10 terminado: Runs/MMASQAP-Normal/Run/Normal_seed_3764, seed=3764
+Escenario 1 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_7940, seed=7940
+Escenario 2 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_9411, seed=9411
+Escenario 3 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_7175, seed=7175
+Escenario 4 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_9685, seed=9685
+Escenario 5 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_7018, seed=7018
+Escenario 6 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_1569, seed=1569
+Escenario 7 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_128, seed=128
+Escenario 8 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_5144, seed=5144
+Escenario 9 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_8860, seed=8860
+Escenario 10 terminado: Runs/MMASQAP-Sr/Run/Normal_seed_3764, seed=3764
+Traceback (most recent call last):
+  File "/home/dianag/PruebasPablo/irace-runs/Execute_Runs_Irace.py", line 79, in <module>
+    path, seed, run_id = futures[future]
+ValueError: too many values to unpack (expected 3)

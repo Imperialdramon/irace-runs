@@ -4,7 +4,7 @@
 
 ## Directory where the programs will be run.
 targetRunner = "./target-runner.py"
-execDir = "./"
+execDir = "./results"
 parameterFile = "./parameters.txt"
 
 ## The number of digits for parameters

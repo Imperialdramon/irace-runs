@@ -76,6 +76,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=K) as executor:
     futures = {executor.submit(execute_scenario, path, seed, run_id, instances_dir, parallel): [path, seed, run_id, instances_dir] for path, seed, run_id, instances_dir in runs_data}
     print("Ejecutando escenarios...\n")
     for future in concurrent.futures.as_completed(futures):
-        path, seed, run_id = futures[future]
+        path, seed, run_id, _ = futures[future]
         print(f"Escenario {path} completado: seed={seed}, run_id={run_id}\n")
     print("Ejecución de escenarios completada.")
