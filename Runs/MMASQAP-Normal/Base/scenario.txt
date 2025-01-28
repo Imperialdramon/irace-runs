@@ -7,6 +7,9 @@ targetRunner = "./target-runner.py"
 execDir = "./results"
 parameterFile = "./parameters.txt"
 
+## Folder of instances
+trainInstancesDir = "../../Instances"
+
 ## The number of digits for parameters
 digits = 2
 
