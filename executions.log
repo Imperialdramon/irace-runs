@@ -1,1 +1,105 @@
 nohup: ignoring input
+Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner' 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3 2>&1' had status 1
+== irace == The call to targetRunner was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3
+== irace == The output was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner: line 45: 1081622 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
+dom 02 feb 2025 09:38:32 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner: error: c332-11-1585510298.stdout: No such file or directory
+== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
+Execution halted
+Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner' 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22 2>&1' had status 1
+== irace == The call to targetRunner was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22
+== irace == The output was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner: line 45: 1154891 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
+dom 02 feb 2025 11:16:13 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner: error: c235-15-158911556.stdout: No such file or directory
+== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
+Execution halted
+Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner' 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3 2>&1' had status 1
+== irace == The call to targetRunner was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3
+== irace == The output was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner: line 45: 1460252 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
+dom 02 feb 2025 17:48:44 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner: error: c332-11-1585510298.stdout: No such file or directory
+== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
+Execution halted
+Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner' 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22 2>&1' had status 1
+== irace == The call to targetRunner was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22
+== irace == The output was:
+/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner: line 45: 1542796 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
+dom 02 feb 2025 19:38:51 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner: error: c235-15-158911556.stdout: No such file or directory
+== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
+Execution halted
+Número total de escenarios (N): 60
+
+Número máximo de ejecuciones simultáneas (K): 2
+
+Número de threads por escenario: 8
+
+Ejecutando escenarios...
+
+Escenario 1 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7940, seed=7940
+Escenario 2 terminado: Runs/PSOX-Mixed-N/Run/N_seed_9411, seed=9411
+Escenario 3 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7175, seed=7175
+Escenario 4 terminado: Runs/PSOX-Mixed-N/Run/N_seed_9685, seed=9685
+Escenario 5 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7018, seed=7018
+Escenario 6 terminado: Runs/PSOX-Mixed-N/Run/N_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Mixed-N/Run/N_seed_128, seed=128
+Escenario 8 terminado: Runs/PSOX-Mixed-N/Run/N_seed_5144, seed=5144
+Escenario 9 terminado: Runs/PSOX-Mixed-N/Run/N_seed_8860, seed=8860
+Escenario 10 terminado: Runs/PSOX-Mixed-N/Run/N_seed_3764, seed=3764
+Escenario 1 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7940, seed=7940
+Escenario 2 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_9411, seed=9411
+Escenario 3 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7175, seed=7175
+Escenario 4 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_9685, seed=9685
+Escenario 5 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7018, seed=7018
+Escenario 6 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_128, seed=128
+Escenario 9 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_8860, seed=8860
+Escenario 8 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_5144, seed=5144
+Escenario 1 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7940, seed=7940
+Escenario 2 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_9411, seed=9411
+Escenario 10 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_3764, seed=3764
+Escenario 3 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7175, seed=7175
+Escenario 4 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_9685, seed=9685
+Escenario 5 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7018, seed=7018
+Escenario 6 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_128, seed=128
+Escenario 8 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_5144, seed=5144
+Escenario 9 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_8860, seed=8860
+Escenario 10 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_3764, seed=3764
+Escenario 1 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7940, seed=7940
+Escenario 2 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_9411, seed=9411
+Escenario 3 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7175, seed=7175
+Escenario 4 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_9685, seed=9685
+Escenario 5 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7018, seed=7018
+Escenario 6 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_128, seed=128
+Escenario 8 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_5144, seed=5144
+Escenario 9 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_8860, seed=8860
+Escenario 10 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_3764, seed=3764
+Escenario 1 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7940, seed=7940
+Escenario 3 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7175, seed=7175
+Escenario 2 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_9411, seed=9411
+Escenario 5 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7018, seed=7018
+Escenario 4 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_9685, seed=9685
+Escenario 6 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_128, seed=128
+Escenario 8 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_5144, seed=5144
+Escenario 9 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_8860, seed=8860
+Escenario 10 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_3764, seed=3764
+Escenario 1 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7940, seed=7940
+Escenario 3 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7175, seed=7175
+Escenario 2 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_9411, seed=9411
+Escenario 5 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7018, seed=7018
+Escenario 4 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_9685, seed=9685
+Escenario 6 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_1569, seed=1569
+Escenario 7 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_128, seed=128
+Escenario 8 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_5144, seed=5144
+Escenario 9 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_8860, seed=8860
+Escenario 10 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_3764, seed=3764
+Traceback (most recent call last):
+  File "/home/dianag/PruebasPablo/irace-runs/Execute_Runs_Irace.py", line 82, in <module>
+    path, seed, run_id, _ = futures[future]
+ValueError: not enough values to unpack (expected 4, got 3)

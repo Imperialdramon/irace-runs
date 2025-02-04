@@ -36,10 +36,15 @@ directories = [
 #    ['Runs/MMASQAP-N/Base', 'Runs/MMASQAP-N/Run', 'N'],
 #    ['Runs/MMASQAP-SR/Base', 'Runs/MMASQAP-SR/Run', 'SR'],
     ['Runs/PSOX-Mixed-N/Base', 'Runs/PSOX-Mixed-N/Run', 'N'],
+    ['Runs/PSOX-Mixed-SR/Base', 'Runs/PSOX-Mixed-SR/Run', 'SR'],
+    ['Runs/PSOX-Multimodal-N/Base', 'Runs/PSOX-Multimodal-N/Run', 'N'],
+    ['Runs/PSOX-Multimodal-SR/Base', 'Runs/PSOX-Multimodal-SR/Run', 'SR'],
+    ['Runs/PSOX-Unimodal-N/Base', 'Runs/PSOX-Unimodal-N/Run', 'N'],
+    ['Runs/PSOX-Unimodal-SR/Base', 'Runs/PSOX-Unimodal-SR/Run', 'SR'],
 ]
 
 # Semillas para cada combinación
-seeds = [7940, 9411] #, 7175, 9685, 7018, 1569, 128, 5144, 8860, 3764]"""
+seeds = [7940, 9411, 7175, 9685, 7018, 1569, 128, 5144, 8860, 3764]
 
 # Listas para almacenar los datos de cada run
 runs_data = []
@@ -74,6 +79,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=K) as executor:
     futures = {executor.submit(execute_scenario, path, seed, run_id, parallel): [path, seed, run_id] for path, seed, run_id in runs_data}
     print("Ejecutando escenarios...\n")
     for future in concurrent.futures.as_completed(futures):
-        path, seed, run_id, _ = futures[future]
+        path, seed, run_id = futures[future]
         print(f"Escenario {path} completado: seed={seed}, run_id={run_id}\n")
     print("Ejecución de escenarios completada.")
