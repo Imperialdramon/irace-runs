@@ -35,16 +35,24 @@ directories = [
 #    ['Runs/ACOTSP-SR/Base', 'Runs/ACOTSP-SR/Run', 'SR'],
 #    ['Runs/MMASQAP-N/Base', 'Runs/MMASQAP-N/Run', 'N'],
 #    ['Runs/MMASQAP-SR/Base', 'Runs/MMASQAP-SR/Run', 'SR'],
-    ['Runs/PSOX-Mixed-N/Base', 'Runs/PSOX-Mixed-N/Run', 'N'],
-    ['Runs/PSOX-Mixed-SR/Base', 'Runs/PSOX-Mixed-SR/Run', 'SR'],
-    ['Runs/PSOX-Multimodal-N/Base', 'Runs/PSOX-Multimodal-N/Run', 'N'],
-    ['Runs/PSOX-Multimodal-SR/Base', 'Runs/PSOX-Multimodal-SR/Run', 'SR'],
-    ['Runs/PSOX-Unimodal-N/Base', 'Runs/PSOX-Unimodal-N/Run', 'N'],
-    ['Runs/PSOX-Unimodal-SR/Base', 'Runs/PSOX-Unimodal-SR/Run', 'SR'],
+    # ['Runs/PSOX-Mixed-N/Base', 'Runs/PSOX-Mixed-N/Run', 'N'],
+    # ['Runs/PSOX-Mixed-SR/Base', 'Runs/PSOX-Mixed-SR/Run', 'SR'],
+    # ['Runs/PSOX-Multimodal-N/Base', 'Runs/PSOX-Multimodal-N/Run', 'N'],
+    # ['Runs/PSOX-Multimodal-SR/Base', 'Runs/PSOX-Multimodal-SR/Run', 'SR'],
+    # ['Runs/PSOX-Unimodal-N/Base', 'Runs/PSOX-Unimodal-N/Run', 'N'],
+    # ['Runs/PSOX-Unimodal-SR/Base', 'Runs/PSOX-Unimodal-SR/Run', 'SR'],
+    ['Runs-T/ACOTSP-N/Base', 'Runs-T/ACOTSP-N/Run', 'N'],
+    ['Runs-T/ACOTSP-SR/Base', 'Runs-T/ACOTSP-SR/Run', 'SR'],
 ]
 
 # Semillas para cada combinación
-seeds = [7940, 9411, 7175, 9685, 7018, 1569, 128, 5144, 8860, 3764]
+#seeds = [7940, 9411, 7175, 9685, 7018, 1569, 128, 5144, 8860, 3764]
+seeds = [
+    374829374, 9283749283, 192837465, 5647382910, 9182736450,
+    8273645872, 7362819201, 5463728192, 1092837465, 6748291038,
+    3847561920, 9283746153, 2719384650, 6473829102, 8392017465,
+    1029384756, 5647382917, 9182736458, 2837461928, 7362819204
+]
 
 # Listas para almacenar los datos de cada run
 runs_data = []
