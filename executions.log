@@ -1,37 +1,5 @@
 nohup: ignoring input
-Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner' 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner: line 45: 1081622 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 02 feb 2025 09:38:32 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/target-runner: error: c332-11-1585510298.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7175/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Execution halted
-Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner' 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner: line 45: 1154891 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 02 feb 2025 11:16:13 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/target-runner: error: c235-15-158911556.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-N/Run/N_seed_7018/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Execution halted
-Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner' 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner 332 11 1585510298 --competition 2 --problem 6 --dimensions 30  --particles 11 --topology 6 --modInfluence 0 --branching 11 --phi1 2.03 --phi2 1.69 --inertia 0.3
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner: line 45: 1460252 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 02 feb 2025 17:48:44 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/target-runner: error: c332-11-1585510298.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7175/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Execution halted
-Error: == irace == running command ''/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner' 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22 2>&1' had status 1
-== irace == The call to targetRunner was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner 235 15 158911556 --competition 2 --problem 10 --dimensions 30  --particles 20 --topology 6 --modInfluence 0 --branching 20 --phi1 0.03 --phi2 1.59 --inertia 0.22
-== irace == The output was:
-/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner: line 45: 1542796 Segmentation fault      (core dumped) $EXE --seed $SEED ${CONFIG_PARAMS} $FIXED_PARAMS > $STDOUT 2> $STDERR
-dom 02 feb 2025 19:38:51 UTC: /home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/target-runner: error: c235-15-158911556.stdout: No such file or directory
-== irace == This is not a bug in irace, but means that something failed when running the command(s) above or they were terminated before completion. Try to run the command(s) above from the execution directory '/home/dianag/PruebasPablo/irace-runs/Runs/PSOX-Unimodal-SR/Run/SR_seed_7018/results' to investigate the issue. See also Appendix B (targetRunner troubleshooting checklist) of the User Guide (https://cran.r-project.org/package=irace/vignettes/irace-package.pdf).
-Execution halted
-Número total de escenarios (N): 60
+Número total de escenarios (N): 40
 
 Número máximo de ejecuciones simultáneas (K): 2
 
@@ -39,67 +7,188 @@ Número de threads por escenario: 8
 
 Ejecutando escenarios...
 
-Escenario 1 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7940, seed=7940
-Escenario 2 terminado: Runs/PSOX-Mixed-N/Run/N_seed_9411, seed=9411
-Escenario 3 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7175, seed=7175
-Escenario 4 terminado: Runs/PSOX-Mixed-N/Run/N_seed_9685, seed=9685
-Escenario 5 terminado: Runs/PSOX-Mixed-N/Run/N_seed_7018, seed=7018
-Escenario 6 terminado: Runs/PSOX-Mixed-N/Run/N_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Mixed-N/Run/N_seed_128, seed=128
-Escenario 8 terminado: Runs/PSOX-Mixed-N/Run/N_seed_5144, seed=5144
-Escenario 9 terminado: Runs/PSOX-Mixed-N/Run/N_seed_8860, seed=8860
-Escenario 10 terminado: Runs/PSOX-Mixed-N/Run/N_seed_3764, seed=3764
-Escenario 1 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7940, seed=7940
-Escenario 2 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_9411, seed=9411
-Escenario 3 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7175, seed=7175
-Escenario 4 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_9685, seed=9685
-Escenario 5 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_7018, seed=7018
-Escenario 6 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_128, seed=128
-Escenario 9 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_8860, seed=8860
-Escenario 8 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_5144, seed=5144
-Escenario 1 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7940, seed=7940
-Escenario 2 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_9411, seed=9411
-Escenario 10 terminado: Runs/PSOX-Mixed-SR/Run/SR_seed_3764, seed=3764
-Escenario 3 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7175, seed=7175
-Escenario 4 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_9685, seed=9685
-Escenario 5 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_7018, seed=7018
-Escenario 6 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_128, seed=128
-Escenario 8 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_5144, seed=5144
-Escenario 9 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_8860, seed=8860
-Escenario 10 terminado: Runs/PSOX-Multimodal-N/Run/N_seed_3764, seed=3764
-Escenario 1 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7940, seed=7940
-Escenario 2 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_9411, seed=9411
-Escenario 3 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7175, seed=7175
-Escenario 4 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_9685, seed=9685
-Escenario 5 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_7018, seed=7018
-Escenario 6 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_128, seed=128
-Escenario 8 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_5144, seed=5144
-Escenario 9 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_8860, seed=8860
-Escenario 10 terminado: Runs/PSOX-Multimodal-SR/Run/SR_seed_3764, seed=3764
-Escenario 1 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7940, seed=7940
-Escenario 3 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7175, seed=7175
-Escenario 2 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_9411, seed=9411
-Escenario 5 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_7018, seed=7018
-Escenario 4 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_9685, seed=9685
-Escenario 6 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_128, seed=128
-Escenario 8 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_5144, seed=5144
-Escenario 9 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_8860, seed=8860
-Escenario 10 terminado: Runs/PSOX-Unimodal-N/Run/N_seed_3764, seed=3764
-Escenario 1 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7940, seed=7940
-Escenario 3 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7175, seed=7175
-Escenario 2 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_9411, seed=9411
-Escenario 5 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_7018, seed=7018
-Escenario 4 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_9685, seed=9685
-Escenario 6 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_1569, seed=1569
-Escenario 7 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_128, seed=128
-Escenario 8 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_5144, seed=5144
-Escenario 9 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_8860, seed=8860
-Escenario 10 terminado: Runs/PSOX-Unimodal-SR/Run/SR_seed_3764, seed=3764
-Traceback (most recent call last):
-  File "/home/dianag/PruebasPablo/irace-runs/Execute_Runs_Irace.py", line 82, in <module>
-    path, seed, run_id, _ = futures[future]
-ValueError: not enough values to unpack (expected 4, got 3)
+Escenario 1 terminado: Runs-T/ACOTSP-N/Run/N_seed_374829374, seed=374829374
+Escenario Runs-T/ACOTSP-N/Run/N_seed_374829374 completado: seed=374829374, run_id=1
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 2 terminado: Runs-T/ACOTSP-N/Run/N_seed_9283749283, seed=9283749283
+Escenario Runs-T/ACOTSP-N/Run/N_seed_9283749283 completado: seed=9283749283, run_id=2
+
+Escenario 3 terminado: Runs-T/ACOTSP-N/Run/N_seed_192837465, seed=192837465
+Escenario Runs-T/ACOTSP-N/Run/N_seed_192837465 completado: seed=192837465, run_id=3
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 4 terminado: Runs-T/ACOTSP-N/Run/N_seed_5647382910, seed=5647382910
+Escenario Runs-T/ACOTSP-N/Run/N_seed_5647382910 completado: seed=5647382910, run_id=4
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 5 terminado: Runs-T/ACOTSP-N/Run/N_seed_9182736450, seed=9182736450
+Escenario Runs-T/ACOTSP-N/Run/N_seed_9182736450 completado: seed=9182736450, run_id=5
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 6 terminado: Runs-T/ACOTSP-N/Run/N_seed_8273645872, seed=8273645872
+Escenario Runs-T/ACOTSP-N/Run/N_seed_8273645872 completado: seed=8273645872, run_id=6
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 7 terminado: Runs-T/ACOTSP-N/Run/N_seed_7362819201, seed=7362819201
+Escenario Runs-T/ACOTSP-N/Run/N_seed_7362819201 completado: seed=7362819201, run_id=7
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 8 terminado: Runs-T/ACOTSP-N/Run/N_seed_5463728192, seed=5463728192
+Escenario Runs-T/ACOTSP-N/Run/N_seed_5463728192 completado: seed=5463728192, run_id=8
+
+Escenario 9 terminado: Runs-T/ACOTSP-N/Run/N_seed_1092837465, seed=1092837465
+Escenario Runs-T/ACOTSP-N/Run/N_seed_1092837465 completado: seed=1092837465, run_id=9
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 10 terminado: Runs-T/ACOTSP-N/Run/N_seed_6748291038, seed=6748291038
+Escenario Runs-T/ACOTSP-N/Run/N_seed_6748291038 completado: seed=6748291038, run_id=10
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 11 terminado: Runs-T/ACOTSP-N/Run/N_seed_3847561920, seed=3847561920
+Escenario Runs-T/ACOTSP-N/Run/N_seed_3847561920 completado: seed=3847561920, run_id=11
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 12 terminado: Runs-T/ACOTSP-N/Run/N_seed_9283746153, seed=9283746153
+Escenario Runs-T/ACOTSP-N/Run/N_seed_9283746153 completado: seed=9283746153, run_id=12
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 13 terminado: Runs-T/ACOTSP-N/Run/N_seed_2719384650, seed=2719384650
+Escenario Runs-T/ACOTSP-N/Run/N_seed_2719384650 completado: seed=2719384650, run_id=13
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 14 terminado: Runs-T/ACOTSP-N/Run/N_seed_6473829102, seed=6473829102
+Escenario Runs-T/ACOTSP-N/Run/N_seed_6473829102 completado: seed=6473829102, run_id=14
+
+Escenario 16 terminado: Runs-T/ACOTSP-N/Run/N_seed_1029384756, seed=1029384756
+Escenario Runs-T/ACOTSP-N/Run/N_seed_1029384756 completado: seed=1029384756, run_id=16
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 15 terminado: Runs-T/ACOTSP-N/Run/N_seed_8392017465, seed=8392017465
+Escenario Runs-T/ACOTSP-N/Run/N_seed_8392017465 completado: seed=8392017465, run_id=15
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 17 terminado: Runs-T/ACOTSP-N/Run/N_seed_5647382917, seed=5647382917
+Escenario Runs-T/ACOTSP-N/Run/N_seed_5647382917 completado: seed=5647382917, run_id=17
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 18 terminado: Runs-T/ACOTSP-N/Run/N_seed_9182736458, seed=9182736458
+Escenario Runs-T/ACOTSP-N/Run/N_seed_9182736458 completado: seed=9182736458, run_id=18
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 19 terminado: Runs-T/ACOTSP-N/Run/N_seed_2837461928, seed=2837461928
+Escenario Runs-T/ACOTSP-N/Run/N_seed_2837461928 completado: seed=2837461928, run_id=19
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 20 terminado: Runs-T/ACOTSP-N/Run/N_seed_7362819204, seed=7362819204
+Escenario Runs-T/ACOTSP-N/Run/N_seed_7362819204 completado: seed=7362819204, run_id=20
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 2 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_9283749283, seed=9283749283
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_9283749283 completado: seed=9283749283, run_id=2
+
+Escenario 1 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_374829374, seed=374829374
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_374829374 completado: seed=374829374, run_id=1
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 4 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_5647382910, seed=5647382910
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_5647382910 completado: seed=5647382910, run_id=4
+
+Escenario 3 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_192837465, seed=192837465
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_192837465 completado: seed=192837465, run_id=3
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 5 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_9182736450, seed=9182736450
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_9182736450 completado: seed=9182736450, run_id=5
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 6 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_8273645872, seed=8273645872
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_8273645872 completado: seed=8273645872, run_id=6
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 8 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_5463728192, seed=5463728192
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_5463728192 completado: seed=5463728192, run_id=8
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 7 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_7362819201, seed=7362819201
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_7362819201 completado: seed=7362819201, run_id=7
+
+Escenario 9 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_1092837465, seed=1092837465
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_1092837465 completado: seed=1092837465, run_id=9
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 10 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_6748291038, seed=6748291038
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_6748291038 completado: seed=6748291038, run_id=10
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 11 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_3847561920, seed=3847561920
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_3847561920 completado: seed=3847561920, run_id=11
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 12 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_9283746153, seed=9283746153
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_9283746153 completado: seed=9283746153, run_id=12
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 13 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_2719384650, seed=2719384650
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_2719384650 completado: seed=2719384650, run_id=13
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 14 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_6473829102, seed=6473829102
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_6473829102 completado: seed=6473829102, run_id=14
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 15 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_8392017465, seed=8392017465
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_8392017465 completado: seed=8392017465, run_id=15
+
+Escenario 16 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_1029384756, seed=1029384756
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_1029384756 completado: seed=1029384756, run_id=16
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 17 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_5647382917, seed=5647382917
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_5647382917 completado: seed=5647382917, run_id=17
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 18 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_9182736458, seed=9182736458
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_9182736458 completado: seed=9182736458, run_id=18
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 19 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_2837461928, seed=2837461928
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_2837461928 completado: seed=2837461928, run_id=19
+
+Warning message:
+In checkScenario(scenario) : NAs introduced by coercion to integer range
+Escenario 20 terminado: Runs-T/ACOTSP-SR/Run/SR_seed_7362819204, seed=7362819204
+Escenario Runs-T/ACOTSP-SR/Run/SR_seed_7362819204 completado: seed=7362819204, run_id=20
+
+Ejecución de escenarios completada.

@@ -24,7 +24,7 @@ def execute_scenario(path: str, seed: int, id_scenario: int, train_dir: str, par
         file.write("\n## Number of threads\n")
         file.write(f"parallel={parallel}\n")
 
-    command = "Rscript execute_irace.R > output.log"
+    command = "Rscript execute_irace.r > output.log"
     subprocess.run(command, shell=True, cwd=path)
 
     print(f"Escenario {id_scenario} terminado: {path}, seed={seed}")
@@ -85,8 +85,8 @@ print(f"Número de threads por escenario: {parallel}\n")
 # Ejecutar en paralelo
 with concurrent.futures.ThreadPoolExecutor(max_workers=K) as executor:
     futures = {executor.submit(execute_scenario, path, seed, run_id, parallel): [path, seed, run_id] for path, seed, run_id in runs_data}
-    print("Ejecutando escenarios...\n")
+    print("Ejecutando escenarios...\n", flush=True)
     for future in concurrent.futures.as_completed(futures):
         path, seed, run_id = futures[future]
-        print(f"Escenario {path} completado: seed={seed}, run_id={run_id}\n")
-    print("Ejecución de escenarios completada.")
+        print(f"Escenario {path} completado: seed={seed}, run_id={run_id}\n", flush=True)
+    print("Ejecución de escenarios completada.", flush=True)
