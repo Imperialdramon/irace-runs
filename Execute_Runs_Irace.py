@@ -41,8 +41,10 @@ directories = [
     # ['Runs/PSOX-Multimodal-SR/Base', 'Runs/PSOX-Multimodal-SR/Run', 'SR'],
     # ['Runs/PSOX-Unimodal-N/Base', 'Runs/PSOX-Unimodal-N/Run', 'N'],
     # ['Runs/PSOX-Unimodal-SR/Base', 'Runs/PSOX-Unimodal-SR/Run', 'SR'],
-    ['Runs-T/ACOTSP-N/Base', 'Runs-T/ACOTSP-N/Run', 'N'],
-    ['Runs-T/ACOTSP-SR/Base', 'Runs-T/ACOTSP-SR/Run', 'SR'],
+    #['Runs-T/ACOTSP-N/Base', 'Runs-T/ACOTSP-N/Run', 'N'],
+    #['Runs-T/ACOTSP-SR/Base', 'Runs-T/ACOTSP-SR/Run', 'SR'],
+    ['Runs-C/ACOTSP-N/Base', 'Runs-C/ACOTSP-N/Run', 'N'],
+    ['Runs-C/ACOTSP-SR/Base', 'Runs-C/ACOTSP-SR/Run', 'SR'],
 ]
 
 # Semillas para cada combinación
